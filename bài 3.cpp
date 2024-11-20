@@ -1,22 +1,15 @@
 #include <stdio.h>
 int main()
 {
-	float a, b, tong, hieu, thuong, tich;
-	printf ("moi nhap so a:");
-	scanf ("%f" , &a);
-	printf ("moi nhap so b:");
-	scanf ("%f" , &b);
-	tong =a + b;
-	hieu =a - b;
-	thuong =a / b;
-	tich =a * b;
-	printf ("tong %f va %f là:", a,b);
-	printf ("%.f\n" , tong);
-	printf ("hieu %f va %f là:", a,b);
-	printf ("%.f\n" , hieu); 
-	printf ("thuong %f va %f là:", a,b);
-	printf ("%.2f\n" , thuong);
-	printf ("tich %f va %f là:", a,b);
-	printf ("%.f\n" , tich);
-	return 0;  
+ int a=3, b=4, tong, hieu, tich;
+ float thuong;
+ tong = a + b;
+ hieu = a - b;
+ tich = a * b;
+ thuong = a / b;
+ printf ("tong cua %d va %d la:%d\n", a,b,tong);
+ printf ("hieu cua %d va %d la:%d\n", a,b,hieu);
+ printf ("thuong cua %d va %d la:%.2f\n",a,b,thuong);
+ printf ("tich cua %d va %d la:%d\n",a,b,tich);
+ return 0;
  } 
